@@ -28,7 +28,7 @@ This web application buit in php language. its is a very simple and easy to user
  * now , go to php folder open coon.php file, change here database configutarion parameter as per your mysql database you can see in this image :
  * ![db](https://user-images.githubusercontent.com/49394996/164953680-5ce81403-c802-4574-892e-4adefb0ef3a3.png)
  * now go to php/do-login.php file  open and do same changes for database connection ( i have saperated login connection for security reasions)
- * than upload/export sql file in mysql database 
+ * than upload/export sql file in mysql database ( sql file is along with this repo.)
  * now go to auth_user table insert your new username and password 
  * now your web application is ready to use . 
 
