@@ -1,0 +1,202 @@
+.nav {
+  background: linear-gradient(rgb(131,240,252),rgb(160,249,227));
+  background-color: linear-gradient(#1FA2FF,#12D8FA,#A6FFCB);
+}
+
+
+.nav .nav-item .nav-link {
+  font-weight: 578;
+}
+.nav .nav-item .active {
+  background-color: #96c8fb;
+background-image: linear-gradient(315deg, #96c8fb 0%, #ddbdfc 74%);
+  color: #495057;
+ border-color: #ee0c5a #ee0c5a #fff;
+}
+.float-right {
+  float: right;
+}
+.btn{
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .23s ease-in-out,all .25s ease-in-out;
+} 
+.btn:focus {
+  border: none !important;
+  box-shadow: none;
+}
+.btn:hover {  
+  color: #fff !important;
+  background:linear-gradient(-78deg,#b93df3,#f75f5f) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-green-round {
+    background: linear-gradient(45deg,rgb(47,249,141),#59e0c5);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.bg-c-yellow-round {
+    background: linear-gradient(45deg,#ffbc27da,rgb(255,162,36));
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.bg-c-pink-round {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.bg-c-blue {
+    background: linear-gradient(45deg,#FF5370,rgb(81,48,255));
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.bg-c-12{
+    background: linear-gradient(45deg,rgb(247,121,142),rgb(164,148,247));
+    
+}
+.bg-c-13{
+    background: linear-gradient(45deg,rgb(251,243,156),rgb(148,247,163));
+    
+}
+.bg-c-14{
+    background: linear-gradient(45deg,rgb(251,181,156),rgb(247,148,167));
+    
+}
+.bg-c-15{
+    background: linear-gradient(45deg,rgb(156,251,234),rgb(247,180,148));
+    
+}
+.bg-c-some{
+  background: linear-gradient(45deg,rgba(255,83,112,0.563),rgba(134,255,228,0.499),rgba(172,255,134,0.41));
+} 
+
+.d-btn {
+  border: none;
+  outline: none;
+  background:rgb(255,62,62);
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+  font-weight: 680;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.d-btn:hover{
+  background: #1a07ff;
+}
+.e-btn {
+  border: none;
+  outline: none;
+  background: var(--smoothblack);
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+  font-weight: 680;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.e-btn:hover {
+  background: white;
+  color: #000;
+}
+
+#SearchedData {
+  border:2px solid #bb00ff;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#customers tr:nth-child(even){background-color: rgba(242,242,242,0.927);}
+
+#customers tr:hover {background-color: rgba(141,246,196,0.925);}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#09d289;
+  color: white;
+}
+
+#SearchedData {
+  border:2px solid #bb00ff;
+}
+#SearchedData #customers th {
+  background-color:rgb(236,0,179);
+}
+
+ /*loader style start */
+	#divLoading	{
+		display : none;
+	}
+	#divLoading.show{
+		display : block;
+		position : fixed;
+		z-index: 10000;
+		background-image :url('wave.svg');
+		background-color:rgba(26,26,26,0.935);
+		opacity : 0.8;  
+		background-repeat : no-repeat;
+		background-position : center;
+		left : 0;
+		bottom : 0;
+		right : 0;
+		top : 0;
+	}
+	#loadinggif.show {left : 50%;
+		top : 50%;
+		position : absolute;
+		z-index : 10005;
+		width : 32px;
+		height : 32px;
+		margin-left : -16px;
+		margin-top : -16px;
+	}
+	/*lodaer style end */
+	
+	.short-meter .card .card-body h3{
+	  color: #615f5f;
+	  font-family: Consolas;
+	  letter-spacing: 0.2px;
+	  font-style: italic;
+	}
+		.short-meter .card .card-body span{ 
+		  font-weight: 511;
+		  font-size: 22px;
+		  float: right;
+		}
